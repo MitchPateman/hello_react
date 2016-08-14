@@ -21521,10 +21521,10 @@
 	var LikesComponent = function (_React$Component) {
 	  _inherits(LikesComponent, _React$Component);
 
-	  function LikesComponent(props) {
+	  function LikesComponent() {
 	    _classCallCheck(this, LikesComponent);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(LikesComponent).call(this, props));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(LikesComponent).call(this));
 
 	    _this.state = { likesCount: 0 };
 	    _this.onLike = _this.onLike.bind(_this);
