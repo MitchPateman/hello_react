@@ -2,10 +2,9 @@ import React from 'react';
 
 class LikesComponent extends React.Component {
 
-  constructor() {
-    super();
-    //this.firebaseRef = new Firebase("https://first-react-app-a7079.firebaseio.com")
-    this.state = {likesCount : 0};
+  constructor(props) {
+    super(props);
+    this.state = {likesCount : 0 };
     this.onLike = this.onLike.bind(this);
   }
 

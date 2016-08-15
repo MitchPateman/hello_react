@@ -21521,11 +21521,10 @@
 	var LikesComponent = function (_React$Component) {
 	  _inherits(LikesComponent, _React$Component);
 
-	  function LikesComponent() {
+	  function LikesComponent(props) {
 	    _classCallCheck(this, LikesComponent);
 
-	    //this.firebaseRef = new Firebase("https://first-react-app-a7079.firebaseio.com")
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(LikesComponent).call(this));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(LikesComponent).call(this, props));
 
 	    _this.state = { likesCount: 0 };
 	    _this.onLike = _this.onLike.bind(_this);
